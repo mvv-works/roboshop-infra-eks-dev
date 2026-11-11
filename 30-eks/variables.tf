@@ -1,5 +1,5 @@
 variable "project" {
-  default = "roboshop"
+  default = "roboshop-dev"
 }
 
 variable "environment" {
@@ -7,7 +7,7 @@ variable "environment" {
 }
 
 variable "eks_version" {
-  default = "1.36"
+  default = "1.35"
 }
 
 variable "enable_blue" {
@@ -15,7 +15,7 @@ variable "enable_blue" {
 }
 
 variable "blue_version" {
-  default = "1.36"
+  default = "1.34"
 }
 
 variable "enable_green" {
