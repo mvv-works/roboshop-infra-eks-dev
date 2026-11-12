@@ -1,6 +1,6 @@
 data "aws_ami" "joindevops" {
   most_recent = true
-  owners      = ["995310840186"]
+  owners      = ["973714476881"]
 
   filter {
     name   = "name"
@@ -24,7 +24,7 @@ data "aws_ami" "sonarqube" {
 
   filter {
     name   = "name"
-    values = ["SolveDevOps-SonarQube-Server-Ubuntu24.04-*"]
+    values = ["SolveDevOps-SonarQube-Server-Ubuntu26.04-*"]
   }
 
   filter {

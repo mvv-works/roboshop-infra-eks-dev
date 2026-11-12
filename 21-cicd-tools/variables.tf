@@ -1,27 +1,27 @@
 variable "project" {
-    default = "roboshop"
+  default = "roboshop"
 }
 
 variable "environment" {
-    default = "dev"
+  default = "dev"
 }
 
 variable "zone_id" {
-    default = "Z07086101C1CVP7AT2UK4"
+  default = "Z07086101C1CVP7AT2UK4"
 }
 
 variable "domain_name" {
-    default = "devops550.online"
+  default = "devops550.online"
 }
 
 variable "sonar" {
-    default = false
+  default = true
 }
 
 variable "jenkins" {
-    default = false
+  default = true
 }
 
 variable "runner" {
-    default = true
+  default = true
 }
